@@ -1,0 +1,112 @@
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-top: 12px;
+}
+.entree{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background: linear-gradient(#6CFBB7,#22c1c3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    display: inline;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.barre{
+    background-color: #22c1c3;
+    color: #22c1c3;
+    border: thick double white;
+    height: 25px;
+}
+article{
+    padding: 3%;
+    width: 50%;
+}
+.japon{
+    background: linear-gradient(#56A5F0, #bc8196);
+    border-radius: 15px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.thailande{
+    background: linear-gradient(#22c1c3,#6CFBB7);
+    border-radius: 15px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.inde{
+    background: linear-gradient(#5C90B5,#D88422);
+    border-radius: 15px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.paysage{
+    width: 25%;
+    clip-path:ellipse(33% 50%);
+}
+footer{
+    background: linear-gradient(#22c1c3,#6CFBB7);
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+   font-size: 25px;
+   margin: 8px;
+   margin-top: 15px;
+}
+@media screen and (max-width:768px){
+    .japon, .inde, .thailande{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .entree{
+        padding-top: 15px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .paysage{
+        width:45%;
+    }
+}

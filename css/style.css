@@ -107,6 +107,38 @@ i{
         flex-direction: column;
     }
     .paysage{
-        width:45%;
+        width: 80%;
     }
-}
+    .position{
+        margin-top: 5%;
+    }
+    .autre{
+        margin-bottom: 5%;
+    }
+    article{
+     width: 100%;
+    
+    }
+    article p{
+        font-size: 20px;
+        padding: 50px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+
+    }
+    article h2{
+        padding: 50px;
+        
+    }
+    .autre{
+        margin-top: 10%;
+    }
+    .thai{
+        justify-content: center;
+        display: flex;
+    }
+    .ind{
+        display: flex;
+        justify-content: flex-end;
+    }
+    }
